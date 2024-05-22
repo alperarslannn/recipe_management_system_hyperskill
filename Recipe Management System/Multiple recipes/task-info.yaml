@@ -1,0 +1,32 @@
+type: edu
+files:
+  - name: src/recipes/RecipesApplication.java
+    visible: true
+    learner_created: false
+  - name: src/resources/application.properties
+    visible: true
+    learner_created: false
+  - name: build.gradle
+    visible: true
+    learner_created: false
+  - name: test/RecipesApplicationTest.java
+    visible: false
+    learner_created: false
+  - name: src/recipes/api/RecipeUiController.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/domain/Recipe.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/api/RecipeUiDto.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/api/AddRecipeUiDto.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/13089#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 22 May 2024 06:10:56 UTC"
+record: 2
