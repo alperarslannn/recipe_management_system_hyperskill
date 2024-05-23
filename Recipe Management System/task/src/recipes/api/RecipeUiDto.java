@@ -8,6 +8,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Getter
@@ -21,7 +22,11 @@ public class RecipeUiDto {
     private String name;
     @NotEmpty
     @NotBlank
+    private String category;
+    @NotEmpty
+    @NotBlank
     private String description;
+    private LocalDateTime date;
     @NotEmpty
     private List<String> ingredients;
     @NotEmpty

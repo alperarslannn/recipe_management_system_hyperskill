@@ -10,9 +10,6 @@ files:
   - name: build.gradle
     visible: true
     learner_created: false
-  - name: test/RecipesApplicationTest.java
-    visible: false
-    learner_created: false
   - name: src/recipes/domain/RecipeRepository.java
     visible: true
     learner_created: true
@@ -28,30 +25,42 @@ files:
   - name: src/recipes/api/RecipeUiDto.java
     visible: true
     learner_created: true
+  - name: src/recipes/api/RegisterUiController.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/api/RegistrationUiDto.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/domain/RegisteredUser.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/domain/RegisteredUserRepository.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/security/SecurityConfig.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/security/CustomUserDetails.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/security/CustomBCryptPasswordEncoder.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/api/validator/StrictEmailValidator.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/api/validator/StrictEmail.java
+    visible: true
+    learner_created: true
+  - name: test/RecipesApplicationTest.java
+    visible: true
+    learner_created: true
+  - name: src/recipes/api/exception/GlobalExceptionHandler.java
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/13091#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Wrong answer in test #3
-
-    The JSON object should contain a key &quot;category&quot;
-
-    Full JSON:
-    {
-      &quot;name&quot;: &quot;Fresh Mint Tea /Test&quot;,
-      &quot;description&quot;: &quot;Light, aromatic and refreshing beverage, ... /Test&quot;,
-      &quot;ingredients&quot;: [
-        &quot;boiled water&quot;,
-        &quot;honey&quot;,
-        &quot;fresh mint leaves /Test&quot;
-      ],
-      &quot;directions&quot;: [
-        &quot;Boil water&quot;,
-        &quot;Pour boiling hot water into a mug&quot;,
-        &quot;Add fresh mint leaves&quot;,
-        &quot;Mix and let the mint leaves seep for 3-5 minutes&quot;,
-        &quot;Add honey and mix again /Test&quot;
-      ]
-    }
-  time: "Wed, 22 May 2024 07:02:51 UTC"
+  message: Congratulations!
+  time: "Thu, 23 May 2024 13:32:52 UTC"
 record: 4
